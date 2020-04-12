@@ -12,6 +12,13 @@
                           (/ myStaffSize 20)))
 }
 
+\include "deutsch.ly"
+\language "deutsch"
+
+
+% ===================
+%   Noten und Text
+% ===================
 
 \header {
   title = ""
@@ -125,9 +132,6 @@ refrainMark = {
     \small\bold "Refrain"
   }
 }
-
-\include "deutsch.ly"
-\language "deutsch"
 
 \layout {
   indent = #0
